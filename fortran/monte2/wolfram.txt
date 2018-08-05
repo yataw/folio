@@ -1,0 +1,1 @@
+int abs(sin(x*y))dxdy where -3.1415<x<3.1415, -3<y<3   and sqrt((x - -1)**2 + (y - 0.1)**2) + sqrt((x - 1)**2 + (y - 0.1)**2) > 2*1.5

@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>TX Library: Титульная страница</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen_.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Создано системой Doxygen 1.7.3 -->
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TXLib.png"></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TX Library&#160;<span id="projectnumber">Help &ndash; Version: 0172a, Revision: 161</span></div>
+   <div id="projectbrief"><s>&nbsp;ALL&nbsp;</s> Windows graphics in a sandbox</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('index.htm','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<h1>TX Library Документация</h1>  </div>
+</div>
+<div class="contents">
+<div class="textblock"><hr/>
+ <h2><a class="anchor" id="MainPage"></a>
+Библиотека Тупого Художника (The Dumb Artist Library, TX Library, TXLib)</h2>
+<dl class="rcs"><dt><b>Version:</b></dt><dd>0172a, Revision: 161 </dd></dl>
+<dl class="rcs"><dt><b>Copyright:</b></dt><dd>(C) Ded (Ilya Dedinsky, <a href="http://ded32.net.ru">http://ded32.net.ru</a>) </dd></dl>
+<hr/>
+ <h2><a class="anchor" id="Description"></a>
+Назначение</h2>
+<p>TX Library - компактная графическая библиотека для Win32 на С++. Это небольшая "песочница" для начинающих реализована с целью помочь им в изучении простейших принципов программирования. Документация на русском языке.</p>
+<p>Философия TX Library - облегчить первые шаги в программировании и подтолкнуть к творчеству и самостоятельности.</p>
+<p>TX Library is a tiny graphics library for Win32 written in C++. It is a small sandbox for the very beginners to help them to learn basic programming principles. The documentation is currently in Russian.</p>
+<hr/>
+ <h2><a class="anchor" id="Contents"></a>
+Разделы системы помощи</h2>
+<ul>
+<li><a class="el" href="main.htm#Contents">Информация о библиотеке</a></li>
+<li><a class="el" href="a00029.htm">Рисование</a></li>
+<li><a class="el" href="a00030.htm">Поддержка мыши</a></li>
+<li><a class="el" href="a00032.htm">Разное</a></li>
+<li><a class="el" href="a00031.htm">Диалоговые окна</a></li>
+<li><a class="el" href="a00033.htm">Служебное</a></li>
+<li><a class="el" href="a00034.htm">Технические детали</a></li>
+</ul>
+<dl class="user"><dt><b>Примеры:</b></dt><dd></dd></dl>
+<ul>
+<li><a class="el" href="a00001.htm">Структура простейшей программы</a></li>
+<li><a class="el" href="a00002.htm">Улучшенный пример использования</a></li>
+<li><a class="el" href="a00003.htm">Пример с функциями</a></li>
+<li><a class="el" href="a00004.htm">Пример с функциями с параметрами</a></li>
+<li><a class="el" href="a00005.htm">Пример с циклами</a></li>
+<li><a class="el" href="a00006.htm">Расширенный пример с циклами</a></li>
+</ul>
+<hr/>
+ <h2><a class="anchor" id="OfficialSite"></a>
+Представительство в Интернет</h2>
+<p>Официальный сайт библиотеки: <a href="http://ded32.net.ru">ded32.net.ru.</a> См. также <a href="http://txlib.sourceforge.net">страницу проекта на SourceForge.</a></p>
+<dl class="warning"><dt><b>Предупреждения:</b></dt><dd><b>Это альфа-версия. Для использования требуется согласование с автором библиотеки.</b> <br/>
+<br/>
+ Правила использования материалов библиотеки и сайта см. на <a href="http://ded32.net.ru/index/0-6">официальном сайте.</a></dd></dl>
+<hr/>
+ <h2><a class="anchor" id="PlatformsSupported"></a>
+Поддерживаемые платформы</h2>
+<ul>
+<li>Среды программирования и компиляторы<ol type="a">
+<li>CodeBlocks 10.05 + MinGW GCC 4.5.1 (TDM-GCC)</li>
+<li>CodeBlocks 10.05 + MinGW GCC 4.4.1</li>
+<li>CodeBlocks 8.02 + MinGW GCC 3.4.5</li>
+<li>CodeBlocks 1.0rc2 + MinGW GCC 3.4.4</li>
+<li>Dev-CPP 4.9.9.2 + MinGW GCC 3.4.2</li>
+<li>Microsoft Visual Studio 10.0 (2010)</li>
+<li>Microsoft Visual Studio 9.0 (2008)</li>
+<li>Microsoft Visual Studio 8.0 (2005)</li>
+<li>Microsoft Visual Studio 7.1 (2003)</li>
+<li>Microsoft Visual Studio 6.0 (1998)</li>
+</ol>
+</li>
+<li>Операционные системы<ol type="a">
+<li>Windows 7 ru/en</li>
+<li>Windows Vista ru/en</li>
+<li>Windows 2003 SP1 R1/R2 ru/en</li>
+<li>Windows XP SP2/SP3 ru/en</li>
+<li>Windows 2000 SP4 ru/en</li>
+<li>Linux + Wine<ul>
+<li>Ubuntu 10.04, 11.04 + Wine 1.2.2</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<dl class="note"><dt><b>Заметки:</b></dt><dd><ul>
+<li><b>Принудительно отключается режим UNICODE</b> (кроме редактора ресурсов Visual Studio). Для явной работы с UNICODE-функциями используйте суффикс W.</li>
+<li>Принудительно включается режим <code>_CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES</code>.</li>
+</ul>
+</dd></dl>
+<dl class="warning"><dt><b>Предупреждения:</b></dt><dd>Если программа разрабатывалась на определенных платформах с настройками по умолчанию, то во время исполнения могут потребоваться файлы библиотек, без которых программа не запустится: <br/>
+<br/>
+ <table  border="0">
+<tr valign="top">
+<td><b>Компилятор</b> &#160;&#160;</td><td><b>Среда разработки</b> &#160;&#160;</td><td><b>Конфигурация</b> &#160;&#160;</td><td><b>Требуемые библиотеки</b> &#160;&#160;</td><td><p class="starttd"></p>
+<p class="endtd"></p>
+</td></tr>
+<tr valign="top">
+<td><code>GCC</code> <code>g++</code> &#160;&#160;</td><td>CodeBlocks, DevCpp, Eclipse &#160;&#160;</td><td>Debug, Release &#160;&#160;</td><td><code>msvcrt.dll</code> &#160;&#160;</td><td><p class="starttd"></p>
+<p class="endtd"></p>
+</td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 6 &#160;&#160;</td><td>Debug, Release &#160;&#160;</td><td><em>Не требуются</em> &#160;&#160;</td><td></td></tr>
+<tr valign="top">
+<td>Intel Compiler 9.0 &#160;&#160;</td><td>Visual Studio 6 &#160;&#160;</td><td>Debug, Release &#160;&#160;</td><td><em>Не требуются</em> &#160;&#160;</td><td><p class="starttd"></p>
+<p class="endtd"></p>
+</td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 2003 &#160;&#160;</td><td>Debug, Release &#160;&#160;</td><td><em>Не требуются</em> &#160;&#160;</td><td></td></tr>
+<tr valign="top">
+<td>Intel Compiler 9.0 &#160;&#160;</td><td>Visual Studio 2003 &#160;&#160;</td><td>Debug, Release &#160;&#160;</td><td><em>Не требуются</em> &#160;&#160;</td><td><p class="starttd"></p>
+<p class="endtd"></p>
+</td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 2005 &#160;&#160;</td><td>Debug &#160;&#160;</td><td><code>msvcp80d.dll</code>, <code>msvcr80d.dll</code> &#160;&#160;</td><td></td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 2005 &#160;&#160;</td><td>Release &#160;&#160;</td><td><code>msvcp80.dll</code>, &#160;&#160; <code>msvcr80.dll</code> &#160;&#160;</td><td><p class="starttd"></p>
+<p class="endtd"></p>
+</td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 2008 &#160;&#160;</td><td>Debug &#160;&#160;</td><td><code>msvcp90d.dll</code>, <code>msvcr90d.dll</code> &#160;&#160;</td><td></td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 2008 &#160;&#160;</td><td>Release &#160;&#160;</td><td><code>msvcp90.dll</code>, &#160;&#160; <code>msvcr90.dll</code> &#160;&#160;</td><td><p class="starttd"></p>
+<p class="endtd"></p>
+</td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 2010 &#160;&#160;</td><td>Debug &#160;&#160;</td><td><code>msvcp100d.dll</code>, <code>msvcr100d.dll</code> &#160;&#160;</td><td></td></tr>
+<tr valign="top">
+<td>Microsoft Visual C &#160;&#160;</td><td>Visual Studio 2010 &#160;&#160;</td><td>Release &#160;&#160;</td><td><code>msvcp100.dll</code>,&#160; <code>msvcr100.dll</code> &#160;&#160;</td><td></td></tr>
+</table>
+</dd></dl>
+<p>Посмотреть эти зависимости можно утилитой <a href="http://www.dependencywalker.com">Depends.exe</a>.</p>
+<hr/>
+ <h2><a class="anchor" id="UsageNotes"></a>
+Особенности использования</h2>
+<dl class="note"><dt><b>Заметки:</b></dt><dd>Файл <code><a class="el" href="a00024.htm" title="Библиотека Тупого Художника (The Dumb Artist Library, TX Library, TXLib).">TXLib.h</a></code> должен быть включен <code>(#include)</code> в программу:<ul>
+<li>До или вместо файла <code>Windows.h</code>. Либо надо задать макро <code>WINVER</code> не ниже <code>0x0500</code>.</li>
+<li>До или вместо файлов <code>String.h</code> или <code>StdIO.h</code>, если используется режим строгого соответствия стандарту ANSI.</li>
+<li>После включения библиотек <a href="http://boost.org"><code>boost</code></a>, использующих модуль <code>boost::preprocessor</code>.</li>
+</ul>
+</dd></dl>
+<hr/>
+ <h2><a class="anchor" id="VersionHistory"></a>
+История изменений</h2>
+<ul>
+<li><b>Версия 0.172</b><ol type="a">
+<li><b>API</b><ol type="i">
+<li>Добавлена cовместимость с MS Visual Studio 2010.</li>
+<li>Соответствие стандарту <code>C++0x</code> в MSVS 2010 и GCC 4.5 в режиме компиляции <code>-Wall</code> <code>-Wextra</code>.</li>
+<li>Убраны лишние предупреждения о неинициализированнях полях структур при инициализации вида <code>= {}</code> (только для компиляторов MS и GCC версии 4).</li>
+<li>Изменен диалог About, заголовки окна и окон сообщений.</li>
+<li>Изменен и дополнен формат вывода ошибок.</li>
+<li>Добавлены функции для работы с консолью.</li>
+<li>Добавлены новые функции служебного характера.</li>
+<li>Макрос TX_THROW переименован в <a class="el" href="a00032.htm#ga3e4a82a10130528f63b6f19476a0943a">TX_ERROR</a>, макрос TX_NEEDED &ndash; в <a class="el" href="a00032.htm#ga889b74443b3e918adee3e31fad4653f7">asserted</a>. Добавлены макросы <a class="el" href="a00032.htm#ga14fecb1c008314444a74c1fe7d9a113b">verify</a>, <a class="el" href="a00032.htm#ga66cb8e8fe20d9d05d02e73373bda7f8a">verified</a>. Обеспечена обратная совместимость.</li>
+<li>_TX_IMPORT переименован _TX_DLLIMPORT, так больше похоже на __declspec (dllimport).</li>
+<li>Убрана облегченная поддержка регионов отсечения (теперь &ndash; только средствами Win32).</li>
+<li>Добавлена многооконность (experimental and not fully documented).</li>
+<li>Файл Graphics.h больше не поддерживается.</li>
+</ol>
+</li>
+<li><b>Документация</b><ol type="i">
+<li>Дополнен текст примеров использования, добавлены демонстрационные программы и дополнения от разных авторов (в папке TX/Examples/Demo). Подробно документирован исходный текст функции <a class="el" href="a00031.htm#ga364e78410e64fb751d3a0253d08f98e2" title="Ввод строки в отдельном окне.">txInputBox()</a> для иллюстрации работы с диалогами Win32.</li>
+<li>Документация по примерам вынесена в отдельный файл.</li>
+<li>Дополнена документация по отдельным функциям, добавлены примеры.</li>
+</ol>
+</li>
+<li><b>Реализация</b><ol type="i">
+<li>Во все функции добавлены проверки параметров и установка кода ошибки SetLastError().</li>
+<li>Упрощен механизм трансляции текста консоли в окно TXLib.</li>
+<li>Добавлена динамическая иконка окна.</li>
+<li>Добавлено автоматическое удаление HDC и предупреждение об этом через Tray Notification.</li>
+<li>Добавлена принудительная установка русского языка в консоли, см. пляски с бубном в _txConsole_SetUnicodeFont().</li>
+<li>Если процесс с TXLib запущен в среде программирования, которая будет ожидать нажатия клавиши для завершения процесса, TXLib теперь завершает процесс-родитель этой среды. Поддерживаются MS Visual Studio, CodeBlocks, Eclipse. См. <a class="el" href="a00034.htm#ga2c0a4fe0612f109c5c88d6d55a061db5">_TX_WAITABLE_PARENTS</a>.</li>
+<li>Поддержка среды Eclipse с ее альтернативно талантливой идеей эмулировать консоль в собственном окне и использованием каналов (pipes) для ввода-вывода.</li>
+</ol>
+</li>
+<li><b>Установка</b><ol type="i">
+<li>Убраны сообщения об ошибках в Setup.js</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><b>Версия 0.171</b><ol type="a">
+<li>Соответствие стандартам MS SAL и режиму компиляции /analyze в MSVS 2005, 2008.</li>
+<li>Восстановлен механизм обновления по таймеру.</li>
+<li>Русский язык в консоли в _txThrow().</li>
+</ol>
+</li>
+<li><b>Версия 0.170</b><ol type="a">
+<li>Исправление ошибок в _txCanvas_OnPAINT (NULL DC).</li>
+<li>Упрощен механизм генерации сообщений для обновления экрана.</li>
+<li>Добавлена трассировка (TX_TRACE).</li>
+</ol>
+</li>
+<li><b>Версия 0.169</b><ol type="a">
+<li>Добавлена работа с диалоговыми окнами (still experimental).</li>
+</ol>
+</li>
+<li><b>Версия 0.166</b><ol type="a">
+<li>Исправлена работа при использовании отладчиков на платформах Win2000, WinXP.</li>
+<li>Документированы отладочные функции и макросы.</li>
+</ol>
+</li>
+<li><b>Версия 0.165</b><ol type="a">
+<li>Добавлены Мастера проектов для VS6, VS2003-2008, CodeBlocks, DevCPP.</li>
+<li>Добавлена интеграция с системой помощи для VS2003-2008.</li>
+</ol>
+</li>
+<li><b>Версия 0.164</b><ol type="a">
+<li>Добавлена cовместимость с Visual Studio 2005.</li>
+<li>Изменен размер шрифта консоли и шрифта, выбранного по умолчанию.</li>
+</ol>
+</li>
+<li><b>Версия 0.150</b><ol type="a">
+<li>Добавлены <a class="el" href="a00029.htm#ga22dc1561bd086c35575bc296d2b379e6" title="Копирует изображение с одного холста (контекста рисования, DC) на другой с учетом прозрачности...">txTransparentBlt()</a>, <a class="el" href="a00029.htm#gac56527a904e9f996fc388e96dd086f45" title="Копирует изображение с одного холста (контекста рисования, DC) на другой с учетом прозрачности...">txAlphaBlend()</a> - Win98 и старше.</li>
+<li>ВНИМАНИЕ! Функции txSetBkColor(), txBkColor(), txGetBkColor() теперь называются <a class="el" href="a00029.htm#gafb1459949ebb32b199d07f5464205baf" title="Устанавливает текущий цвет заполнения фигур.">txSetFillColor()</a>, <a class="el" href="a00029.htm#ga385a6f84e8f1447a33047fa0f3be972b" title="Устанавливает текущий цвет заполнения фигур.">txFillColor()</a>, <a class="el" href="a00029.htm#ga1a65fa9ddfd07bda8ab3e95873991b76" title="Возвращает текущий цвет заполнения фигур.">txGetFillColor()</a> (совместимость со старыми версиями - в Graphics.h).</li>
+</ol>
+</li>
+<li><b>Версия 0.145</b><ol type="a">
+<li>Добавлена <a class="el" href="a00032.htm#ga177f8bcb7544821ea4b5bd0571fe7196" title="Воспроизводит звуковой файл.">txPlaySound()</a>.</li>
+</ol>
+</li>
+<li><b>Версия 0.144</b><ol type="a">
+<li>Исправлен баг в <a class="el" href="a00030.htm#gab814b21d8f52c3efd0d7175d30a4fa73" title="Возвращает состояние Кнопок Мыши!">txMouseButtons()</a>.</li>
+</ol>
+</li>
+</ul>
+<hr/>
+ <h2><a class="anchor" id="Trackers"></a>
+Сообщения об ошибках</h2>
+<p>Тем, кто зарегистрирован на SourceForge.net, можно:</p>
+<ul>
+<li><a href="https://sourceforge.net/tracker/?func=add&amp;group_id=213688&amp;atid=1026710"><b>Сообщить об ошибке</b></a></li>
+<li><a href="https://sourceforge.net/tracker/?func=add&amp;group_id=213688&amp;atid=1026713"><b>Предложить улучшение</b></a> </li>
+</ul>
+</div></div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="footer">Документация по TX Library. Последние изменения: Wed Jun 8 2011 23:24:59. Создано системой&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
+    </ul>
+  </div>
+
+</body>
+</html>
